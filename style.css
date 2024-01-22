@@ -1,49 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
+
 nav ul {
     list-style: none;
 }
-a{
+
+a {
     padding: 20px;
     font-size: 25px;
     font-weight: 400;
 }
-.nav-items{
+
+.nav-items {
     float: right;
     display: flex;
     margin-top: 20px;
     transition: .5s;
 }
-.nav-items li a:hover{
+.nav-items li a:hover {
     color: #000;
-    font-size: 28px; 
+    font-size: 28px;
 }
-.nav-items li a{
+
+.nav-items li a {
     transition: .5s;
 }
-.main{
-    height: 100px;
+
+.logo img {
+    height: 250px;
+}
+
+.main {
     text-align: center;
 }
-.reszta{
+
+.reszta {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
 }
-button{
+
+button {
     float: right;
+}
+
+.omnie {
+    margin-left: 350px;
+    margin-right: 600px;
+}
+
+.image img {
+    width: 100%;
+    height: 300px;
+}
+
+img {
+    width: 350px;
+}
+
+#logo {
+    width: 100%;
+}
+.formularz{
+    margin-left: 500px;
+    margin-right: 400px;
+}
+input{
+    padding: 10px;
+}
+form input{
+    padding: 30px;
+}
+.send a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 350px;
+}
+.tresc{
+    width: 450px;
+    height: 120px;
 }
